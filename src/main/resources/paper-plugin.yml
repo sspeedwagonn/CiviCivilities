@@ -1,0 +1,4 @@
+name: CiviCivilities
+version: '1.0'
+main: net.civicraft.civiCivilities.CiviCivilities
+api-version: '1.21'
