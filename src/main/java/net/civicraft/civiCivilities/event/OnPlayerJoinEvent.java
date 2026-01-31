@@ -6,6 +6,10 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
 public class OnPlayerJoinEvent implements Listener {
+    /*
+    Starts a timer for welcomes and welcome backs
+    Also sends a custom join message
+     */
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
         Player player = e.getPlayer();
