@@ -12,7 +12,7 @@ public class OnPlayerJoinEvent implements Listener {
         if (!player.hasPlayedBefore()) {
 
         } else {
-            
+
         }
     }
 }
