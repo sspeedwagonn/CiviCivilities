@@ -2,3 +2,11 @@ name: CiviCivilities
 version: '1.0'
 main: net.civicraft.civiCivilities.CiviCivilities
 api-version: '1.21'
+commands:
+  welcome:
+    description: "Welcome a player"
+    usage: "/welcome <Player>"
+    aliases: [welcome, wb]
+    permission: civicivilities.welcome
+    permission-message: "You don't have permission to use this command!"
+
